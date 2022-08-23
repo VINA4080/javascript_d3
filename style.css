@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    word-break: break-all;
 }
 
 body{
@@ -16,7 +17,6 @@ main{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
 }
 
 h1{
@@ -39,7 +39,7 @@ form{
     border-radius: 50px;
     width: 500px;
     height: 600px;
-    line-height: 40px;
+    line-height: 20px;
     padding-left: 60px;
     word-break: break-all;
 }
@@ -52,7 +52,7 @@ form{
     color: rgb(255, 255, 255);
     font-family: sans-serif;
     width: 400px;
-    height: 400px;
+    height: 450px;
     line-height: 60px;
     padding-left: 25px;
     padding-top: 10px;
@@ -102,7 +102,7 @@ input::placeholder{
         background-color: rgba(0, 0, 0, 0.4);
         color: white;
         border-radius: 50px;
-        width: 200px;
+        width: 300px;
         height: 400px;
         line-height: 20px;
         padding-left: 60px;
@@ -112,13 +112,13 @@ input::placeholder{
         color: black;
         border: none;
         border-radius: 20px;
-        width: 150px;
+        width: 225px;
         height: 25px;
         padding: 10px;
         word-break: break-all;
     }
     h1{
-        font-size: 15px;
+        font-size: 17px;
         width: 250px;
         text-align: center;
         margin-bottom: 30px;
@@ -134,12 +134,13 @@ input::placeholder{
         color: rgb(255, 255, 255);
         font-family: sans-serif;
         width: 275px;
-        height: 500px;
-        line-height: 30px;
+        height: 450px;
+        max-height: 500px;
+        line-height: 50px;
         padding-left: 25px;
         padding-top: 10px;
         margin-right: 35px;
-        margin-top: 30px;
-        word-break: break-all;
+        margin-top: 10px;
+        word-break: keep-all;
     }
 }
